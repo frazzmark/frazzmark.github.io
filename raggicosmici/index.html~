@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+	<title>Presentation</title>
+	<meta charset="utf-8"/>
+	<meta name="generator" content="Bluefish 2.2.4" />
+	<link href="css/presentation.css" rel="stylesheet" />
+	<link rel="shortcut icon" href="favicon.png" />
+</head>
+
+<body class="impress-not-supported">
+<div class="fallback-message">
+<p>Your browser <b>doesn't support the features required</b> by impress.js, so you are presented with a simplified version of this presentation.</p>
+<p>For the best experience please use the latest <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> browser.</p>
+</div>
+<div id="impress">
+	<div id="inizio" class="step" data-x="-200" data-y="-200">
+		I RAGGI COSMICI
+	</div>
+	<div id="cosa" class="step" data-x="600" data-y="-800" data-rotate="60">
+		<h1>Cosa sono?</h1>
+		<p> I raggi cosmici sono particelle energetiche (protoni principalmente) provenienti dallo spazio esterno alla Terra.
+Sono stai scoperti all'inzio del Novecento da alcuni fisici, tra cui Victor Hess (1912), Domenico Pacini, Bruno Rossi, e in particolare Pierre Auger.
+Il nome “raggi cosmici” fu coniato negli anni 20 da Millikan.</p>
+	</div>
+	<div id="particelle" class="step slide" data-x="1200" data-y="-200" data-z="-400" data-rotate-x="0" data-rotate-y="30">
+	<img src="img/rayshower.png" alt="Una cascata di particelle secondarie"/>
+	Nel 1937 Pierre Auger scoprì, che, quando un raggio cosmico arriva sulla Terra, si scontra con gli atomi nell'atmosfera e genera una cascata di raggi cosmici secondari. 
+	Tra di essi vi sono elettroni, fotoni, pioni e neutrini.
+	</div>
+	<div id="quark" class="step slide quark" data-x="1200" data-y="-200" data-z="-400" data-rotate-y="210">
+	Tutti gli adroni (particelle come protoni, neutroni, pioni) secondo il modello standard sono formate da quark
+	<img src="pion.svg" alt="struttura di un pione" style="float:left; height: 300px;"> 
+	<p>Un pione π<sup>+</sup> é formato da un quark up e un quark antidown, ha carica intera positiva, decade in un μ<sup>+</sup> e in un neutrino muonico.</p>
+	<p>Un pione π<sup>-</sup>, cioé l'opposto di un pione positivo, é formato da un quark antiup e un quark down, ha carica intera negativa, decade in un μ<sup>-</sup> e in un antineutrino muonico.</p> 	
+	<p style="float:none;">Un pione neutro (π<sup>0</sup>) é formato da un quark e il suo opposto (up + antiup oppure down+antidown) e decade in due fotoni.</p>	
+	</div>
+	<div id="imgParticelle" class="step slide" data-x="1200" data-y="800" data-z="-400" data-rotate-y="30">
+	<img src="img/elementaryparticles.svg" alt="particelle elementari">
+	</div>
+	<div id="highenergy" class="step" data-x="2200" data-y="-200" data-rotate="90">
+	Le particelle con le energie più alte sono chiamate UHECR (Ultra High Energy Cosmic Rays) e il loro rilevamento rappresenta un evento raro. Sono le più interessanti in quanto hanno energie elevatissime non ancora raggiungibili dagli acceleratori di particelle. 
+	</div>
+	<div id="uhecr" class="step" data-x="2200" data-y="-200" data-z="-3000" data-rotate="270" data-scale="1" data-rotate-x="90">
+	<img src="img/uhecr.jpg" />
+	</div>
+	<div id="auger" class="step" data-x="2800" data-y="-200">
+	Per studiare gli UHECR è stato costruito l'Osservatorio Pierre Auger, situato in Argentina, che è stato completato nel 2008. 
+	Dato che la frequenza media degli UHECR è di 1 particella per km<sup>2</sup> all'anno, i rilevatori si estendono su un'area di 300.000 km<sup>2</sup>, così da osservare un gran numero di raggi cosmici.
+	</div>
+	
+	<!--<div id="overview" class="step" data-x="2500" data-y="1000" data-scale="5">
+    </div>-->
+</div>
+<div class="hint">
+<p>Use a spacebar or arrow keys to navigate</p>
+</div>
+<script>
+if ("ontouchstart" in document.documentElement) { 
+    document.querySelector(".hint").innerHTML = "<p>Tap on the left or right to navigate</p>";
+}
+</script>
+<script src="js/impress.js"></script>
+<script>impress().init();</script>
+</body>
+
+</html>
