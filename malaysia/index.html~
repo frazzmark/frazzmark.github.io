@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+	<title>Malaysia 2014</title>
+	<meta charset="utf-8"/>
+	<meta name="generator" content="Bluefish 2.2.6" />
+	<link href="css/malaysia.css" rel="stylesheet" />
+	<link rel="shortcut icon" href="favicon.png" />
+	<script type="text/javascript" src="js/scripts.js"></script>
+</head>
+
+<body class="impress-not-supported" ondblclick="map();" onload="//countdown('counter');">
+<div class="fallback-message">
+<p>Your browser <b>doesn't support the features required</b> by impress.js, so you are presented with a simplified version of this presentation.</p>
+<p>For the best experience please use the latest <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> browser.</p>
+</div>
+<div id="impress">
+	<div id="malesia" class="step" data-x="-1100" data-y="-200" data-z="500">
+		<h1>La Malesia ieri e <span class="differ">oggi</span></h1>
+			<h3>Esame di Stato 2014</h3>
+		<h2>Fabio Mazza, 5°E</h2>
+	</div>
+	<!--<div id="inizio" class="step" data-x="-500" data-y="-800" data-rotate="45" data-z="-500">
+		&Egrave; una federazione composta da tredici stati e da tre distretti federali.
+	</div>-->
+	<div id="mappa" class="step" data-x="200" data-y="-200">
+	<img src="img/malaysia-map.jpg" alt="" style="float:none;">
+	</div>
+	<!--<div id="colonizzazione" class="step" data-x="3000" data-y="500" data-scale="4">
+   </div>-->
+
+	<div id="dominazione" class="step" data-x="1600" data-y="300" data-rotate-y="0">
+		<p>La Malesia è una delle nazioni del Sud-est asiatico cosiddette “Tigri Asiatiche”, la cui economia cresce notevolmente anno dopo anno; ovviamente deve la sua recente crescita economica alle sue enormi ricchezze. Lo Stato Malese è nato ufficialmente nel 1963, dopo essersi liberato del controllo dell’Inghilterra.</p>
+		<p>Sono presenti molte etnie e culture nel paese, e il motivo principale &egrave; che la Malesia venne colonizzata da molti popoli stranieri:</p>
+		<!--<ul><li></li></ul>-->
+	</div>
+	<div id="colonizzazione" class="step" data-x="2400" data-y="200" data-rotate="-90">
+		<h2>La colonizzazione</h2>
+		</div>
+	<div id="commercio" class="step" data-x="2700" data-y="200" data-rotate="-90">
+		<img src="img/MapMalaysiaMalaccaTown.png" class="small"> 
+		<p style="float:none;">I portoghesi nel 1511 conquistarono Malacca, che cadde nel 1641 nelle mani degli olandesi.</p>
+		<p>Gli inglesi nel 1786 ottennero l'isola del Penang, e nel 1824 conquistarono l'isola di Singapore, punto perfetto per il commercio </p>
+		<img src="img/Penang_Island.png" class="tall" style="float:left;">
+		<p>Nello stesso anno, grazie a un trattato gli Inglesi ottennero il controllo di Malacca dagli olandesi in cambio della colonia di Bencoolen, cioè dell’isola di Sumatra. 
+		In tal modo gli inglesi divennero l’unica potenza coloniale in Malesia, mentre gli olandesi soggiogarono l’attuale Indonesia;</p>
+	</div>
+	<div id="migrazione" class="step" data-x="3200" data-y="-400">
+	
+	<p>Nel periodo di occupazione inglese avvenne una grande migrazione dalla Cina, il cui flusso di immigranti non si sarebbe mai arrestato fino alla crisi del 1929; i cinesi arrivavano poveri ma molto industriosi, e in pochi decenni arrivarono a controllare vari settori dell'economia, incluse le miniere del Perak, il principale esportatore di stagno. Questo portò a numerosi scontri di carattere etnico con il resto degli abitanti.
+	</p></div>
+	<div id="ethnic" class="step" data-x="3400" data-y="200">
+	<img src="img/Federated_Malay_States.png" alt="">
+	<p>Per controllare la situazione gli inglesi inserirono dei consiglieri, <em>Residents</em> in inglese, negli Stati Malesi, che di fatto perdevano tutta la loro dipendenza.</p>
+	<p>Nel 1900 gli stati di Pahang, Selangor e Negeri Sembilan, oltre al Perak avevano consiglieri inglesi; essi furono uniti nei <em>Federated Malay States</em>. 
+	Nel 1909 anche gli Stati del nord (Kedah, Kelantan, Perlis e Terengganu) furono costretti a fare lo stesso di quelli del Sud, e vennero chiamati <em>Unfederated Malay States</em>. Nel 1914 anche il Johor, lo stato più forte, accettò un consigliere inglese e si unì ai <em>Federated Malay States</em>.</p>
+	</div>
+	<div id="borneo" class="step" data-x="3200" data-y="800" data-rotate="180">
+	<img src="img/borneo1.jpg" alt="">
+	<p>Nel Borneo invece l'avventuriero James Brooke instituì nel 1841 una specie di sultanato detto "bianco" nella parte nord-ovest dell'isola, la zona dell'odierno Sarawak. La parte nord fu controllata direttamente dalla Compagnia Delle Indie a partire dal 1881; anche il Brunei divenne protettorato inglese.</p>
+	<p>Inglesi e olandesi si spartirono l'isola del Borneo con un secondo trattato anglo-olandese nel 1891, dividendo le due zone che ora sono della Malesia e della Indonesia.</p>
+	</div>
+<!--	<div id="primagm" class="step" data-x="-2200" data-y="-200" data-z="0">
+		<p><strong>La prima guerra mondiale</strong></p>
+	<img src="img/battle_penang.jpg" alt="" style="height: 200px; float:left; margin-right: 10px;">
+	La Malesia non ebbe nessuna parte nella prima guerra mondiale, eccetto per la Battaglia del Penang nel 28 ottobre 1914.
+	</div>-->
+	<div id="secondagm" class="step" data-x="-3000" data-y="-200" data-rotate="90" data-z="0">
+	<h2>La seconda guerra mondiale</h2>
+	<p>Dopo la conquista dell’Indocina da parte dei giapponesi nel 1941, e il conseguente un blocco delle esportazioni degli Stati Uniti verso il Giappone, la nazione nipponica, siccome era povera di risorse, decise di conquistare nuovi territori per ottenerle.
+	Dopo mesi di preparativi i giapponesi sferrarono contemporaneamente l'attacco a Pearl Harbor e l'invasione della Malesia (7-8 dicembre 1941).</p>
+	</div>
+	<div id="invasione2" class="step" data-x="-3600" data-y="-600" data-z="0">
+	Anche gli Inglesi si erano preparati a un’imminente invasione, ma  pensavano che avrebbero ricevuto aiuto o dalla madrepatria o dagli Stati Uniti, entrambi dei quali non furono possibili per ovvii motivi.
+	</div>
+	<div id="kotabahru" class="step" data-x="-3600" data-y="100" data-rotate="-180">
+	L’invasione incominciò dalla cittadina di Kota Bahru, alle ore 00:30 dell’8 dicembre; nonostante la feroce resistenza delle truppe inglesi, i giapponesi riuscirono nella mattina a conquistare la spiaggia grazie alla sola fanteria, che contava a metà mattinata di tre battaglioni sbarcati sulla spiaggia.
+	Da quel momento gli inglesi preferirono ritirarsi, lasciando ampie porzioni di territorio in mano ai giapponesi. L'intera invasione si concluse in pochi mesi, e l'8 febbraio 1942 gli Inglesi abbandonavano Singapore.
+	</div>
+	<div id="invasionmap" class="step" data-x="-3700" data-y="-450" data-rotate="-90">
+	<img src="img/invasionmap1.jpg" alt="" style="float:none;">
+	</div>
+	<div id="giapponesi" class="step" data-x="-4300" data-y="-300" data-rotate="-90">
+	<p>Inizi&ograve; un periodo di intenso sfruttamento da parte dei giapponesi: proponendosi infatti come i liberatori dei Malesi dal colonialismo, discriminavano i cinesi e ne trucidarono più o meno 80.000 nella cosiddetta <em>sook ching</em>.
+	<p>Ma questa politica non produsse grandi risultati in campo economico perché il crollo delle esportazioni di materie prime aumentò la disoccupazione.
+	<p>Si svilupparono perciò, per la prima volta, dei movimenti nazionalisti, e prese forma l’idea di unificare i sultanati in un’unica nazione; 
+	quest'idea fu largamente appoggiata dagli inglesi quando dopo la fine della guerra tornarono a governare la colonia.</p>
+	</div>
+	<div id="indipendenza" class="step" data-x="-4200" data-y="400">
+	<img src="img/francobollo.jpg" alt="">
+	<!--<p>Nel 1946 gli stati Federati insieme a quelli non Federati e a Malacca e al Penang formarono la Unione Malese, che nel 48 si trasformò nella Federazione Malese, che era ancora un protettorato britannico.
+	-->
+	L’Inghilterra concesse la piena indipendenza il 31 agosto 1957 alla Federazione Malese (<em>Federation of Malaya</em>), formata dagli stati Federati e gli <em>Unfederated States</em> e a Malacca e al Penang, e in seguito ad essa si unirono le zone  del Borneo (il Sarawak, il Sabah, il protettorato del Brunei), anche se con iniziale riluttanza, e Singapore. Il 16 settembre 1963 nacque lo stato federale della Malaysia. 
+	<p>Pochi anni dopo, tuttavia, Singapore fu costretta a lasciare la federazione, in base alle profonde differenze etniche e ideologiche: la maggioranza della popolazione era cinese, e il partito principale era quello comunista.</p>
+	</div>
+	<!-- Parte del Libro -->
+	<div id="ricemother" class="step" data-x="-2000" data-y="2000">
+	<img src="img/ricemother.jpg" alt="">
+	<p>Nel suo libro <em>The Rice Mother</em>  l'autrice Rani Manicka tratta di una famiglia indiana molto povera, il cui padre viene catturato e torturato dai giapponesi; le loro torture sono particolarmente brutali (bere acqua molto salata, interrogatori e mutilazioni fisiche).</p>
+	</div>
+	
+	<div id="politica" class="step" data-x="1000" data-y="1000" data-z="-1200">
+	<p>La Malesia è oggi un regno federale costituzionale: il re è eletto ogni 5 anni tra i sultani (i governatori degli stati) che ricalcano ancora i vecchi Stati Malesi; la figura del re è certamente derivata dalla dominazione inglese, anche se c’è una notevole differenza: il re non è per niente famoso, oltre ad avere scarso peso politico. Il potere decisionale è nelle mani del governo, le cui elezioni si svolgono ogni cinque anni; le ultime sono state nel maggio 2013.
+	</p><p>In realtà neanche gli stati/regioni hanno una grande indipendenza dal governo federale, se non quella nominale; possono decidere dell’orario scolastico e di alcuni giorni di festa (l’unica differenza che ho notato tra i vari stati: in quelli del nord, più tradizionalisti, la scuola inizia la domenica e finisce il giovedì; inoltre non sono riconosciute alcune feste pagane come il capodanno).</p>
+	</div>
+
+<!--	<div id="fedeter" class="step" data-x="-400" data-y="800" data-z="-1000">
+	<img src="img/federal_territories.png" alt="">
+	<p>I tre distretti federali (Labuan, Kuala Lumpur e Putrajaya) sono nati in diversi tempi, ma ogni volta è stato il governo federale ad acquistare il terreno del distretto dal singolo sultanato/regione. L’ultimo distretto è stato Putrajaya, città costruita da zero nel 2008 come sede di uffici del governo, in quanto la capitale sta diventando sovraffollata.</p>
+	</div> -->
+	<div id="popolazione" class="step" data-x="-400" data-y="0" data-z="-1000" data-rotate="180">
+	<p>La Malesia è quindi una nazione multiculturale, in cui vivono circa 28 milioni di persone, principalmente sulla penisola: solo 6 milioni vivono nel Borneo.  In generale la popolazione è composta dal 60% di Malesi (di etnia), dal 22,9% di cinesi e dal 7,1% di indiani; 
+	la restante percentuale comprende gruppi etnici già preesistenti (tra cui gli Orang Asli, piccole comunità che vivono quasi nello stesso modo dell’antichità, praticamente isolati dal resto del mondo) e altre minoranze etniche.
+	</p>
+	</div>
+	<div id="bumiputera" class="step" data-x="1000" data-y="-100" data-z="-1000" data-rotate="180"> 
+	<p>L’etnia autoctona, esistente cioè prima del periodo coloniale, è chiamata <em>Bumiputera</em>, ma la sua definizione da parte della Costituzione è ambigua: infatti i Malesi (<em>Malay</em>) sono definiti come musulmani che praticano le usanze tipiche Malesi, e sono inclusi nei <em>Bumiputra</em>; 
+	godono di alcuni vantaggi rispetto al resto della popolazione, principalmente sussidi economici per la famiglia e per gli studenti; ciò è avvenuto con la decisione del governo di creare una nuova politica economica per favorire i <em>Malay</em>, che, nonostante siano la maggioranza della popolazione, possiedono poco potere economico (che è rimasto principalmente nelle mani dei cinesi).
+	</p>
+	</div>
+	<div id="religione" class="step" data-x="1900" data-y="-100" data-z="-1000" data-rotate="180">
+	
+	<p>Le tre principali etnie si differenziano, oltre ai tratti somatici, anche per la religione: i <em>Malay</em> sono musulmani, i cinesi sono principalmente buddisti (anche cristiani: il cristianesimo si è diffuso largamente in Malesia), gli indiani sono induisti. Ma ci sono anche indiani musulmani, e anche cinesi musulmani.
+	</p>
+	<img src="img/mosque.jpg" /><img src="img/chinese.jpg" alt=""/><img src="img/indian.jpg" alt="" />
+	</div>
+	<div id="petrolio" class="step" data-x="1900" data-y="-700" data-z="-1000" data-rotate="0">
+	<p>La risorsa più importante scoperta in Malesia dopo l’occupazione inglese è sicuramente il petrolio, i cui giacimenti si trovano principalmente nel Mar Cinese del Sud. Lo sfruttamento di questa risorsa ha permesso l’incredibile sviluppo economico degli ultimi decenni. 
+	Le riserve di petrolio sono immense, e la Malesia ne fa un uso spropositato.<!--; nel gennaio 2009, la quantità totale di petrolio è stata stimata intorno ai 4 miliardi di barili(640×106 m<sup>3</sup>), e si calcola che esse dureranno ancora una quindicina d’anni, mentre il gas naturale per 35.-->
+	</p><p>Queste enormi risorse hanno trainato l’economia malese negli ultimi cinquant’anni (il 2013 era anche il cinquantenario della fondazione della Malesia) rendendolo uno degli stati più ricchi del Sud-est asiatico</p>	
+	<img id="palme" src="img/plantation.jpg" alt="piantagione di palma">
+	<p>La Malesia oggi vive in un clima di benessere, creatosi grazie all’imponente sviluppo economico: oltre al petrolio, è importantissima la coltura della palma, che si estende per milioni di kmq e il cui olio è considerato uno dei migliori al mondo: si usa nell’industria per produrre cibo. Oltre alla palma ci sono vaste regioni in cui crescono alberi della gomma, di cui la Malesia è uno dei principali esportatori.</p>
+	</div>
+	<!--<div id="immigrazione" class="step" data-x="1800" data-y="-700" data-z="-3000" data-rotate="0">
+	La nazione è ricca di risorse ma c’è una grande richiesta di manodopera che attira lavoratori da tutta l’Asia, soprattutto da stati molto poveri come l’Indonesia o il Bangladesh: uno dei miei fratelli ospitanti ha lavorato in un negozio di telefonia per qualche mese durante le vacanze e mi ha raccontato che molta gente (si parla di giovani immigrati) non riusciva a usare uno smartphone senza che lui li aiutasse.
+	</div>-->
+	<div id="citta" class="step" data-x="900" data-y="-700" data-z="-1200" data-rotate="0">
+	<img src="img/kl.jpg" alt="" class="600">
+
+	<p>Nella Malesia si possono notare piccoli ma significanti dettagli che esprimono quel modello di sviluppo tipico degli stati di nuova industrializzazione: i grandi piani regolatori hanno creato città ordinate, con pochi problemi al traffico (che anche nella capitale è molto scorrevole); le costruzioni non sono ammassate l'una accanto all'altra e si tende a lasciare degli spazi liberi tra di esse. La foto alla destra è stata scattata nella capitale Kuala Lumpur. 
+	</p><img src="img/puduraya.jpg" style="width:200px; float:left;">
+	<p>Sul piano dei trasporti, la rete ferroviaria è largamente inutilizzata e sottosviluppata, e mentre in Europa esistono grandi stazioni dei treni, in Malesia esistono enormi stazioni dei bus, con interi piani dedicati alle biglietterie, perché esistono moltissime piccole compagnie. 
+	Un altro esempio può essere il fatto che sul carburante esistono delle sovvenzioni statali sulla benzina, e che praticamente non circolano motori a Diesel nelle città. L’energia elettrica è ottenuta dalle centrali termiche, e in tutta la mia permanenza nel Paese non ho mai sentito parlare della costruzione di centrali nucleari o solari.</p>
+	</div>
+	<div id="pontepenang" class="step" data-x="-100" data-y="-700" data-z="-1500" data-rotate="90">
+	<img src="img/Penang_Second_Bridge_aerial.jpg" style="width: 600px;">
+	Evidentemente la Malesia punta sul trasporto privato su gomma, come ho trovato in un articolo dello Star, giornale con sede nel Penang: un’ulteriore prova di questa spinta può essere individuata nella costruzione completata nell’ottobre 2013 del secondo ponte del Penang, lungo 24 km, edificato per decongestionare il primo ponte del Penang, del 1985; se lo si confronta con altri progetti europei si nota come non sia prevista anche una linea ferroviaria: nell’isola non c’è una sola ferrovia.
+	</div>
+	<div id="turismo" class="step" data-x="-1300" data-y="1000" data-z="-1200" data-rotate="0">
+	<img src="img/pulautioman.jpg" style="width:300px;">
+	<p>Anche il turismo è una risorsa che attira sempre più persone: le mete più belle sono, oltre alle città coloniali come Malacca e il Penang, le isole paradisiache del Mar Cinese del Sud, come Pulau (=isola) Tioman, Pulau Redang e Pulau Perhentian che si trovano nella penisola.
+	</p>
+	</div>
+	<div id="sfuttamento" class="step" data-x="-1200" data-y="1700" data-z="-1200" data-rotate="0">
+	<p>L’uso indiscriminato del petrolio ha indubbiamente nociuto all’ambiente, alla flora e alla fauna; il bisogno di terreni coltivabili ha fatto sparire una buona parte della foresta pluviale, e il turismo delle isole, servendosi di moltissime imbarcazioni a motore, ha finito per danneggiare i bellissimi coralli, che muoiono per l’inquinamento dell’acqua del mare.
+	Molte persone si sono già accorte di questo problemi, e combattono per limitare la deforestazione e lo sfruttamento senza limiti di tutte le risorse disponibili. </p>
+	</div>
+
+	<div id="ringraziamenti" class="step" data-x="300" data-y="300" data-z="-2000" data-rotate-x="90">
+	<h2 class="sketchy" style="font-size: 2.5em;">Grazie per l'attenzione</h2>
+	<p style="">Fonti:
+	<ul>
+	<li>Wikipedia (english)</li>
+	<li>R. Manicka - The Rice Mother</li>
+	<li>Lonely Planet - Malaysia, Singapore & Brunei</li>
+	<li>Department of Statistics, Malaysia - <a href="http://www.statistics.gov.my">Official Portal</a></li>
+	</ul></p>
+	</div>
+</div>
+<canvas id="counter">QUALCOSA</canvas>
+<!--<div id="display"></div>-->
+<div class="hint">
+<p>Use a spacebar or arrow keys to navigate</p>
+</div>
+<script>
+if ("ontouchstart" in document.documentElement) { 
+    document.querySelector(".hint").innerHTML = "<p>Tap on the left or right to navigate</p>";
+}
+//drawcircle('colonizzazione');
+</script>
+<script src="js/impress.js"></script>
+<script>impress().init();</script>
+</body>
+
+</html>

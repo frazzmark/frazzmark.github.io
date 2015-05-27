@@ -1,0 +1,309 @@
+/*fonts*/
+@font-face {
+	font-family: roboto-light;
+	src: url('fonts/Roboto-Light.ttf');
+}
+@font-face {
+	font-family: roboto-light-italic;
+	src: url('fonts/Roboto-LightItalic.ttf');
+}
+@font-face {
+	font-family: roboto-thin;
+	src: url('fonts/Roboto-Thin.ttf');
+}
+@font-face {
+	font-family: roboto-regular;
+	src: url('fonts/Roboto-Regular.ttf');
+}
+@font-face {
+	font-family: bitter-regular;
+	src: url('fonts/Bitter-Regular.ttf');
+}
+@font-face {
+	font-family: roboto-condensed-light;
+	src: url('fonts/RobotoCondensed-Light.ttf');
+}
+@font-face {
+	font-family: roboto-italic;
+	src: url('fonts/Roboto-Italic.ttf');
+}
+@font-face {
+	font-family: letterng;
+	src: url('fonts/letterng-medium.ttf');
+}
+@font-face {
+	font-family: sketchy;
+	src: url('fonts/sketchy.ttf');
+}
+/* total reset */
+html, body, div, span, applet, object, iframe, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, ins, kbd, q, s, samp,
+small, strike, strong, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+/*rimettiamo gli stili*/
+b, strong { font-weight: bold }
+i, em { font-style: italic }
+a {
+    color: inherit;
+    text-decoration: none;
+    padding: 0 0.1em;
+    background: rgba(255,255,255,0.5);
+    //text-shadow: -1px -1px 2px rgba(100,100,100,0.9);
+    border-radius: 0.2em;
+
+    -webkit-transition: 0.5s;
+    -moz-transition:    0.5s;
+    -ms-transition:     0.5s;
+    -o-transition:      0.5s;
+    transition:         0.5s;
+}
+body {
+    font-family: roboto-light;
+    min-height: 740px;
+    background:         radial-gradient(#A8BEFE, #385097);
+}
+
+h1 {
+	font-family:sketchy;
+	font-size: 80px;
+	text-align: center;
+}
+#malesia {
+width:1000px;
+}
+#malesia h2{
+	font-family: roboto-light-italic;
+	font-size: 1.1em;
+	float:right;
+}
+#malesia h3 {
+float:left;
+font-family: roboto-light-italic;
+}
+.step img{
+	float: right;
+	margin-left: 5px;
+	margin-right: 5px;
+	}
+.tall{
+	height: 200px;
+}
+#mappa img{
+	//float: none;
+	height: auto;
+	width: 120%;
+}
+h2{
+	font-family: bitter-regular;
+	font-size: 2em;
+	text-align: center;
+	}
+#invasionmap img{
+	width: 60%;
+	}
+.sketchy {
+font-family: sketchy;
+}
+
+#palme {
+width: 400px;
+}
+#citta img {
+width: 400px;
+}
+#religione img{
+width: 250px;
+float: none;
+display: inline-block;
+}
+#ringraziamenti {
+font-size: 1.3em;
+}
+
+#indipendenza img {
+width: 200px;
+}
+#colonizzazione h2{
+font-size: 2.5em;
+}
+.small {
+width:300px;
+height: auto;
+}
+
+
+/*regola countdown*/
+#counter {
+	width: 70px;
+	height: 70px;
+	position: absolute;
+	overflow: hidden;
+	right: 5px;
+	bottom: 5px;
+}
+#display {
+height: 20px;
+width: 60px;
+text-align: center;
+position: absolute;
+right:8px;
+bottom:28px;
+z-index: -1;
+font-size: 0.9em;
+}
+#ethnic img{
+//width: 350px;
+}
+
+
+/*regole generali della presentazione */
+.impress-enabled .step.active { opacity: 1; }
+.step {
+	position:relative;
+	width: 900px;
+    padding: 40px;
+    margin: 20px auto;
+    font-size: 1.4em;
+}
+.impress-enabled .step {
+    margin: 0;
+    opacity: 0.3;
+    -webkit-transition: opacity 1s;
+	transition:         opacity 1s;
+}
+/*regole del messaggio di fallback*/
+.fallback-message {
+	font-family: roboto-condensed-regular;
+    line-height: 1.3;
+
+    width: 780px;
+    padding: 10px 10px 0;
+    margin: 20px auto;
+
+    border: 1px solid #E4C652;
+    border-radius: 10px;
+    background: #EEDC94;
+}
+
+.fallback-message p {
+    margin-bottom: 10px;
+}
+
+.impress-supported .fallback-message {
+    display: none;
+}
+
+.hint {
+    /*
+        We hide the hint until presentation is started and from browsers not supporting
+        impress.js, as they will have a linear scrollable view ...
+    */
+    display: none;
+
+    /*
+        ... and give it some fixed position and nice styles.
+    */
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 200px;
+
+    background: rgba(0,0,0,0.5);
+    color: #EEE;
+    text-align: center;
+	font-family: roboto-condensed-light;
+    font-size: 50px;
+    padding: 20px;
+
+    z-index: 100;
+
+    /*
+        By default we don't want the hint to be visible, so we make it transparent ...
+    */
+    opacity: 0;
+
+    /*
+        ... and position it below the bottom of the screen (relative to it's fixed position)
+    */
+    -webkit-transform: translateY(400px);
+    -moz-transform:    translateY(400px);
+    -ms-transform:     translateY(400px);
+    -o-transform:      translateY(400px);
+    transform:         translateY(400px);
+
+    /*
+        Now let's imagine that the hint is visible and we want to fade it out and move out
+        of the screen.
+
+        So we define the transition on the opacity property with 1s duration and another
+        transition on transform property delayed by 1s so it will happen after the fade out
+        on opacity finished.
+
+        This way user will not see the hint moving down.
+    */
+    -webkit-transition: opacity 1s, -webkit-transform 0.5s 1s;
+    -moz-transition:    opacity 1s,    -moz-transform 0.5s 1s;
+    -ms-transition:     opacity 1s,     -ms-transform 0.5s 1s;
+    -o-transition:      opacity 1s,      -o-transform 0.5s 1s;
+    transition:         opacity 1s,         transform 0.5s 1s;
+}
+
+/*
+    Now we 'enable' the hint when presentation is initialized ...
+*/
+.impress-enabled .hint { display: block }
+
+/*
+    ... and we will show it when the first step (with id 'bored') is active.
+*/
+.impress .hint {
+    /*
+        We remove the transparency and position the hint in its default fixed
+        position.
+    */
+    opacity: 1;
+
+    -webkit-transform: translateY(0px);
+    -ms-transform:     translateY(0px);
+    -o-transform:      translateY(0px);
+    transform:         translateY(0px);
+
+    /*
+        Now for fade in transition we have the oposite situation from the one
+        above.
+
+        First after 4.5s delay we animate the transform property to move the hint
+        into its correct position and after that we fade it in with opacity
+        transition.
+    */
+
+    transition:         opacity 1s 15s,         transform 0.5s 14.5s;
+}
